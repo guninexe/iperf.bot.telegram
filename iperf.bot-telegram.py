@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import scipy
 
 
-bot = telebot.TeleBot('5903897313:AAHIk5DJA8p2iUJLVFnTmomY5cyDw5I9IcE')
+bot = telebot.TeleBot('your bot token')
 wse = []
 displayer = []
 @bot.message_handler(commands=["start"])
